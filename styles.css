@@ -1,0 +1,108 @@
+.info,.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    font-size:50px;
+    font-weight:300;
+   font-family: Stencil Std, fantasy;
+   padding:50px;
+}
+.title{
+
+}
+.info{
+    height:20px;
+}
+.container{
+ display:flex;
+ justify-content: space-between;  
+ align-items:center;
+ padding:0 80px; 
+}
+.computer,.player{
+
+    width: 330px;
+    text-align: center;
+}
+.player-title {
+
+    height: 40px;
+    padding-top: 40px;
+}
+
+button {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: none; 
+    box-sizing:border-box; 
+    background-size: 95%; 
+    background-repeat: no-repeat;
+    background-color: rgb(177, 205, 241); 
+    background-position: center;
+}   
+#btnRock:focus,
+#btnRock:active {
+
+    border: solid;
+    border-color: blue;
+}
+
+#btnPaper:focus,
+#btnPaper:active {
+
+    border: solid;
+    border-color: yellow;
+}
+
+#btnScissor:focus,
+#btnScissor:active {
+
+    border: solid;
+    border-color: green;
+}
+#btnRockCom.active{
+    border: 3px solid blue;
+}
+#btnPaperCom.active{
+    border: 3px solid yellow;
+}
+#btnScissorCom.active{
+    border: 3px solid green ;
+}
+#btnRock,#btnRockCom {
+
+    background-image: url("images/rock.png");
+}
+
+#btnPaper,#btnPaperCom {
+
+    background-image: url("images/paper.png");
+}
+
+#btnScissor,#btnScissorCom {
+
+    background-image: url("images/scissor.png");
+}
+.restart {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#btnRestart {
+
+    height: 30px;
+    background-color: rgb(69, 133, 216);
+    color: rgb(175, 73, 73);
+    border-radius: 5px;
+    background: transparent;
+}
+#btnRestart.btnRestartActive {
+
+    background:rgb(69, 133, 216);    
+}

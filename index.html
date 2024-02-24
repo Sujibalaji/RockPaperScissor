@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-paper-scissor</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Rock Paper Scissor</div>
+    <div class="info"></div>
+    <div class="container">
+        <div class="player">
+    <div class="player-title">player</div>
+    <div>
+        <button id="btnRock" class="btn"></button>
+        <button id="btnPaper" class="btn"></button>
+        <button id="btnScissor" class="btn"></button>
+    </div>
+</div>
+    <div class="score"> 0 : 0</div>
+    <div class="computer">
+    <div class="player-title">Computer</div>
+    <div class="computer-info">
+        <button id="btnRockCom" class="btn"></button>
+        <button id="btnPaperCom" class="btn"></button>
+        <button id="btnScissorCom" class="btn"></button>   
+    </div>
+</div>
+</div>
+<div class="restart">
+    <button id="btnRestart" onClick="window.location.reload();"></button>
+</div>
+
+<script src="rps.js"></script>
+</body>
+</html>
